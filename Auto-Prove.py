@@ -1,17 +1,16 @@
 #!usr/bin/python3
-# the assignment 1 of COMP4418 written by YONGXI YANG 
+# the assignment 1 of COMP4418 written by Prophet 
 # time for design :  12:00am 24/08/2017
-# the student number is Z5103793
 # the test envirnment :
-#
-# Python 3.6.2 (v3.6.2:5fd33b5, Jul  8 2017, 04:14:34) [MSC v.1900 32 bit (Intel)] on win32
-# Type "help", "copyright", "credits" or "license" for more information.
+# Mac 10.12
+# Python 3.6.3 (v3.6.3:2c5fed86e0, Oct  3 2017, 00:32:08) 
+# [GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin
+# Type "help", "copyright", "credits" or "license" for more information
 #
 # the input format is
-#        python assn1q3.py '[p imp q, (neg r) imp (neg q)] seq [p imp r]'
+#        python3 Auto-Prove.py '[p imp q, (neg r) imp (neg q)] seq [p imp r]'
 #
-# But sorry, professor:
-#       I forget to design API of print the proving process so the result can only show the Truth or False
+# Sorry, I forget to design the API of print the proving process so the result can only show the Truth or False
 
 import argparse
 import re
@@ -607,17 +606,17 @@ def main():
 
 
 
-def test():
-#     m = [['neg(p or q)'],['neg p']]
-#     n = [[], ['neg p', 'p or q']]
-#     l = [['neg((p or q) imp (neg c))'],['neg p']]
-#     L = [[], ['neg p', 'neg(p or q)']]
-#     result = backforward_search(m)
-    result = backforward_search([['p'], ['q']])
+# def test():
+# #     m = [['neg(p or q)'],['neg p']]
+# #     n = [[], ['neg p', 'p or q']]
+# #     l = [['neg((p or q) imp (neg c))'],['neg p']]
+# #     L = [[], ['neg p', 'neg(p or q)']]
+# #     result = backforward_search(m)
+#     result = backforward_search([['p'], ['q']])
 
-    print(result)
+#     print(result)
 
-    return
+#     return
 
 if __name__ == '__main__':
     main()
