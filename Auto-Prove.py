@@ -1,5 +1,5 @@
 #!usr/bin/python3
-# the assignment 1 of COMP4418 written by Prophet 
+# the assignment 1 of COMP4418 written by Yongxi.
 # time for design :  12:00am 24/08/2017
 # the test envirnment :
 # Mac 10.12
