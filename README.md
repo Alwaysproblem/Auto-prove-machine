@@ -45,7 +45,7 @@ manner in which you can construct a proof for a sequent to determine whether it 
 below.
 
 **P1** Initial Rule: If $\lambda,\ \zeta$ are strings of atomic formulae, then $\lambda \vdash \zeta$ is a theorem if some atomic formula occurs on both side of the sequent $\vdash$.
-In the following ten rules  and  are always strings (possibly empty) of formulae.
+In the following ten rules $\lambda$ and $\zeta$ are always strings (possibly empty) of formulae.
 
 **P2a** Rule $\vdash \neg$: If $\phi,\ \zeta \vdash \lambda,\ \rho$ then $\zeta \vdash \lambda,\ \neg \phi,\ \rho$
 
