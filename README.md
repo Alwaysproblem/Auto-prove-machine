@@ -102,9 +102,13 @@ as follows.
 Formula                             | Rules
 ------------------------------------|------------
 1. $ p \vdash p,\ q $               | Rule **P1**
+------------------------------------|------------
 2. $ p \vdash p \lor q $            | Rule **P4a**
+------------------------------------|------------
 3. $ \vdash \neg p,\ p \lor q $     | Rule **P2a**
+------------------------------------|------------
 4. $ \neg (p \lor q) \vdash \neg p$ | Rule **P2b**
+------------------------------------|------------
 $QED.$
 
 However, a simpler idea (as it will involve much less search) is to begin with the sequent(s) to be proved
