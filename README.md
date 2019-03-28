@@ -122,11 +122,11 @@ For example
 
 - MAC or linux OS
     ```shell
-    $python3 AutoProve.py '[p imp q, (neg r) imp (neg q)] seq [p imp r]'
+    $ python3 AutoProve.py '[p imp q, (neg r) imp (neg q)] seq [p imp r]'
     ```
 -  window 10
     ```powershell
-    >python AutoProve.py '[p imp q, (neg r) imp (neg q)] seq [p imp r]'
+    > python AutoProve.py '[p imp q, (neg r) imp (neg q)] seq [p imp r]'
     ```
 
 ## **Output**
