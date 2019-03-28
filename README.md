@@ -116,7 +116,7 @@ So, for example, the sequent $p \to q,\ \neg r \to \neg q \vdash p \to r$ would 
 
 Your program should be called assn1q3 and run as follows:
 
-    python Auto-Prove.py "Sequent"
+    python AutoProve.py "Sequent"
 
 For example
 
